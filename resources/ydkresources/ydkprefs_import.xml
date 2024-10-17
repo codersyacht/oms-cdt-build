@@ -1,0 +1,25 @@
+<preferences>
+    <configsynch>
+            <Settings CustomEntityClass="" MaxChangesToDisplay="15000" ReportsDir="/home/admin/App/CDT/CDT_IMP">
+            <AuditDeployment ValidateLockid="Y" ValidateOldValues="Y" ValidateRecordExistsBeforeDelete="Y"/>
+        </Settings>
+        <SourceDatabases>
+                <Database Name="OMSNPR" className="org.postgresql.Driver" dbType="postgresql" folder="" jdbcURL="jdbc:postgresql://pgdb:5432/OMSNPR" schema="postgres" user="postgres"/>
+        </SourceDatabases>
+        <TargetDatabases>
+                <Database Name="CDTXML" className="" dbType="xml" folder="/home/admin/App/CDT/CDT_IMP" jdbcURL="" schema="" user="admin"/>
+        </TargetDatabases>
+        <SourceTargetPrefs>
+          <SourceTargetPrefs>
+                <SourceTargetPair SourceDatabase="OMSNPR" TargetDatabase="OMSNPR">
+                    <Transformations>
+                    </Transformations>
+                    <Ignore>
+                    </Ignore>
+                    <AppendOnly>
+                    </AppendOnly>
+            </SourceTargetPair>
+           </SourceTargetPrefs> 
+        </SourceTargetPrefs>
+    </configsynch>
+</preferences>
