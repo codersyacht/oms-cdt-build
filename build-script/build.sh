@@ -14,4 +14,4 @@ cd /opt/ssfs/runtime/bin
 echo "setupfiles execution completed"
 ./cdtshell.sh
 echo "CDT export completed"
-sleep 100
+sleep 500
