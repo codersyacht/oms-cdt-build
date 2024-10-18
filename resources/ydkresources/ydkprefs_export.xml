@@ -1,6 +1,6 @@
 <preferences>
     <configsynch>
-            <Settings CustomEntityClass="" MaxChangesToDisplay="15000" ReportsDir="/home/admin/App/CDT/CDT_IMP">
+            <Settings CustomEntityClass="" MaxChangesToDisplay="15000" ReportsDir="/root/sources/CDTReport">
             <AuditDeployment ValidateLockid="Y" ValidateOldValues="Y" ValidateRecordExistsBeforeDelete="Y"/>
         </Settings>
         <SourceDatabases>
@@ -11,7 +11,7 @@
         </TargetDatabases>
         <SourceTargetPrefs>
           <SourceTargetPrefs>
-                <SourceTargetPair SourceDatabase="OMSNPR" TargetDatabase="OMSNPR">
+                <SourceTargetPair SourceDatabase="OMDB" TargetDatabase="CDTXML">
                     <Transformations>
                     </Transformations>
                     <Ignore>
