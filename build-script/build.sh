@@ -16,6 +16,8 @@ cd /opt/ssfs/runtime/bin
 echo "setupfiles execution completed"
 ./cdtshell.sh
 echo "CDT export completed"
+EOF
+whoami
 cd /opt/ssfs/sources
 git add -p
 git commit -m "Comment V1"
@@ -23,3 +25,4 @@ git branch -M main
 git push -u origin main
 echo "Export completed"
 sleep 500
+
