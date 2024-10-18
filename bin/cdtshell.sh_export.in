@@ -21,18 +21,18 @@ export DB_EXTN_JAR
 
 #Set the name of the source database that you have defined 
 #in ${INSTALL_DIR}/resources/ydkprefs.xml
-SOURCE_DB=
+SOURCE_DB=OMDB
 export SOURCE_DB
 
 #Specify the password required for the source database. This parameter is not
 #required to be set if the source is an XML folder, unless that XML folder
 #contains encrypted resources.
-SOURCE_PASSWORD=
+SOURCE_PASSWORD=diet4coke
 export SOURCE_PASSWORD
 
 #Set the name of the target database that you have defined 
 #in ${INSTALL_DIR}/resources/ydkprefs.xml
-TARGET_DB=
+TARGET_DB=CDTXML
 export TARGET_DB
 
 #Specify the password required for the target database. This parameter is not
