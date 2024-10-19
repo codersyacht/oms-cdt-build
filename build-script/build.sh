@@ -13,9 +13,9 @@ git config --global --replace-all user.email "codersyacht@gmail.com"
 git add *
 git commit -m "Comment V1"
 git branch -M main
-cat cat /var/run/secrets/openshift.io/source/username
+cat /var/run/secrets/openshift.io/source/username
 cat /var/run/secrets/openshift.io/source/password
 git push -u origin main --force
 echo "Export completed"
-sleep 500
+sleep 50000
 
