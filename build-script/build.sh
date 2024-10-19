@@ -16,7 +16,7 @@ cp ./properties/system_overrides.properties ./CDTData/system_overrides.propertie
 
 git config --global --replace-all user.name "codersyacht"
 git config --global --replace-all user.email "codersyacht@gmail.com"
-config --global user.password "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"
+git config --global user.password "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"
 git config --global github.token "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"
 
 git remote set-url origin git+ssh://git@github.com/codersyacht/oms-cdt-build.git
