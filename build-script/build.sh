@@ -10,6 +10,7 @@ cd /opt/ssfs/sources
 cp ./properties/system_overrides.properties ./CDTData/system_overrides.properties
 git config --global --replace-all user.name "codersyacht"
 git config --global --replace-all user.email "codersyacht@gmail.com"
+git config --global --replace-all remote.origin.url "https://github.com/codersyacht/oms-cdt-build.git"
 git add *
 git commit -m "Comment V1"
 git branch -M main
