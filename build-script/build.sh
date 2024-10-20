@@ -23,9 +23,11 @@ EOF
 whoami
 cd /opt/ssfs/sources
 
+#export GIT_USER="codersyacht"
+#export GIT_PASS="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"
+
 export GIT_USER=$(cat /var/run/secrets/openshift.io/source/username)
 export GIT_PASS=$(cat /var/run/secrets/openshift.io/source/password)
-cp ./properties/system_overrides.properties ./CDTData/system_overrides.properties
 
 git config --global --replace-all user.name ${GIT_USER}
 git remote set-url origin https://codersyacht@github.com/codersyacht/oms-cdt-build.git
