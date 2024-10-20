@@ -1,5 +1,6 @@
 #!/bin/bash
 pwd
+yum install expect -y
 cp gitexp /usr/bin/gitexp
 chmod 777 /usr/bin/gitexp
 mkdir -p /opt/ssfs/customization
