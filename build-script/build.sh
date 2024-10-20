@@ -22,6 +22,7 @@ echo "CDT export completed"
 EOF
 whoami
 cd /opt/ssfs/sources
+
 export GIT_USER=$(cat /var/run/secrets/openshift.io/source/username)
 export GIT_PASS=$(cat /var/run/secrets/openshift.io/source/password)
 cp ./properties/system_overrides.properties ./CDTData/system_overrides.properties
