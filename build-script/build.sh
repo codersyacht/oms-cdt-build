@@ -23,9 +23,6 @@ EOF
 whoami
 cd /opt/ssfs/sources
 
-#export GIT_USER="codersyacht"
-#export GIT_PASS="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"
-
 export GIT_USER=$(cat /var/run/secrets/openshift.io/source/username)
 export GIT_PASS=$(cat /var/run/secrets/openshift.io/source/password)
 
