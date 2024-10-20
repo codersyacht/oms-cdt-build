@@ -1,4 +1,4 @@
-cat > /user/bin/exp << EOF
+cat > /usr/bin/exp << EOF
 
 #!/usr/bin/expect
 
