@@ -1,7 +1,6 @@
 #!/bin/bash
 pwd
-chmod 777 create_git_push_exp.sh
-./create_git_push_exp.sh
+cp gitexp /usr/bin/gitexp
 chmod 777 /usr/bin/gitexp
 mkdir -p /opt/ssfs/customization
 cp -r ../* /opt/ssfs/customization 
@@ -30,7 +29,7 @@ git config --global --replace-all user.name ${GIT_USER}
 git remote set-url origin https://codersyacht@github.com/codersyacht/oms-cdt-build.git
 git add *
 git commit -m "Comment V1"
-gitexp ${GIT_PASS} git branch -M main
+gitexp ${GIT_PASS} git push -u origin main --force
 
 echo "Export completed"
 sleep 50000
