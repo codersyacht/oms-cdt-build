@@ -1,4 +1,4 @@
-cat > /usr/bin/exp << EOF
+cat > /usr/bin/gitexp << EOF
 
 #!/usr/bin/expect
 
