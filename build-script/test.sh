@@ -15,4 +15,4 @@ git remote set-url origin https://${GIT_USER}@github.com/codersyacht/oms-cdt-bui
 git add *
 git commit -m "Comment V1"
 gitexp ${GIT_PASS} git push -u origin main --force
-sleep 50000
+
