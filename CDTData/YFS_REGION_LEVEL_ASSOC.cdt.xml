@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_REGION_LEVEL_ASSOCList TableName="YFS_REGION_LEVEL_ASSOC" TotalNumberOfRecords="2">
+<RegionLevelAssoc Createprogid="SYSTEM"
+    Createts="2024-08-01T13:29:30-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2024-08-01T13:29:30-04:00" Modifyuserid="SYSTEM"
+    ParentRegionLevelKey="ALL_US_State"
+    RegionLevelAssocKey="ALL_US_City_State" RegionLevelKey="ALL_US_City"/>
+<RegionLevelAssoc Createprogid="SYSTEM"
+    Createts="2024-08-01T13:29:30-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2024-08-01T13:29:30-04:00" Modifyuserid="SYSTEM"
+    ParentRegionLevelKey="ALL_US_Country"
+    RegionLevelAssocKey="ALL_US_State_Country" RegionLevelKey="ALL_US_State"/>
+</YFS_REGION_LEVEL_ASSOCList>

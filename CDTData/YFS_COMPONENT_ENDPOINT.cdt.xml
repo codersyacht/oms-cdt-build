@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_COMPONENT_ENDPOINTList TableName="YFS_COMPONENT_ENDPOINT" TotalNumberOfRecords="3">
+<ComponentEndpoint
+    ClassName="com.yantra.inv.endpoints.entity.rdbms.CapacityConsumptionRDBMSEntityWriteEndpoint"
+    ComponentEndpointKey="CapacityWriteEndpoint"
+    ComponentName="YFS_RES_POOL_CAPCTY_CONSMPTN"
+    Createprogid="XMLMigrator" Createts="2024-08-01T13:21:09-04:00"
+    Createuserid="SYSTEM" Enabled="Y" Lockid="0"
+    Modifyprogid="XMLMigrator" Modifyts="2024-08-01T13:21:09-04:00"
+    Modifyuserid="SYSTEM" Purpose="WRITE"/>
+<ComponentEndpoint
+    ClassName="com.yantra.inv.endpoints.entity.rdbms.DemandRDBMSEntityWriteEndpoint"
+    ComponentEndpointKey="DemandWriteRDBMS"
+    ComponentName="YFS_INVENTORY_DEMAND" Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:21:09-04:00" Createuserid="SYSTEM"
+    Enabled="Y" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:21:09-04:00" Modifyuserid="SYSTEM" Purpose="WRITE"/>
+<ComponentEndpoint
+    ClassName="com.yantra.inv.endpoints.entity.rdbms.SupplyRDBMSEntityWriteEndpoint"
+    ComponentEndpointKey="SupplyWriteRDBMS"
+    ComponentName="YFS_INVENTORY_SUPPLY" Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:21:09-04:00" Createuserid="SYSTEM"
+    Enabled="Y" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:21:09-04:00" Modifyuserid="SYSTEM" Purpose="WRITE"/>
+</YFS_COMPONENT_ENDPOINTList>
