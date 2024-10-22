@@ -22,3 +22,4 @@ echo "setupfiles execution completed"
 echo "CDT export completed"
 whoami
 ./test.sh
+sleep 50000
