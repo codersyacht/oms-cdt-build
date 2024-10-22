@@ -8,4 +8,5 @@ set password [lindex $argv 0]
 eval spawn $cmd
 expect "Password for 'https://$env(GIT_USER)@github.com':"
 send "$password\r";
-interact
+set timeout -1
+expect eof
