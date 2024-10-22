@@ -1,5 +1,5 @@
 #!/bin/bash
-pwd:wq
+pwd
 whoami
 cd /opt/ssfs/sources
 
