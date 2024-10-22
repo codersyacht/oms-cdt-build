@@ -1,6 +1,5 @@
 #!/bin/bash
-pwd
-su root
+pwd:wq
 whoami
 cd /opt/ssfs/sources
 
