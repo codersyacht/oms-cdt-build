@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_USER_GROUP_LISTList TableName="YFS_USER_GROUP_LIST" TotalNumberOfRecords="10">
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:21:45-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:21:45-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2024080113214513303" UserKey="SYSTEM_USER" UsergroupKey="OC_BUSUSER_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:21:45-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:21:45-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2024080113214513304" UserKey="SYSTEM_USER" UsergroupKey="OC_ADMIN_GROUP"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:25:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:25:57-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2024080113255728169" UserKey="SYSTEM_USER" UsergroupKey="PRICING_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:25:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:25:57-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2024080113255728170" UserKey="SYSTEM_USER" UsergroupKey="CATALOG_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:25:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:25:57-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2024080113255728171" UserKey="SYSTEM_USER" UsergroupKey="CUSTOMER_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:25:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:25:57-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2024080113255728172" UserKey="SYSTEM_USER" UsergroupKey="SYSTEM_SETUP_USERS"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:25:57-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:25:57-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="2024080113255728173" UserKey="SYSTEM_USER" UsergroupKey="INVENTORY_USERS"/>
+<UserGroupList Createprogid="SYSTEM"
+    Createts="2024-08-01T13:21:04-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2024-08-01T13:21:04-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="GROUP_LIST" UserKey="SYSTEM_USER" UsergroupKey="SYSTEM"/>
+<UserGroupList Createprogid="XMLMigrator"
+    Createts="2024-08-01T13:21:38-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:21:38-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="GUEST_GROUP_LIST" UserKey="SYS_GUEST_USER" UsergroupKey="GUEST"/>
+<UserGroupList Createprogid="SYSTEM"
+    Createts="2024-08-01T13:21:41-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2024-08-01T13:21:41-04:00" Modifyuserid="SYSTEM"
+    UserGroupListKey="SYSCONNVER_LIST" UserKey="SYSCONNVERUSER" UsergroupKey="SYSCONNVER"/>
+</YFS_USER_GROUP_LISTList>
