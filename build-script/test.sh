@@ -1,8 +1,6 @@
 #!/bin/bash
 pwd
-
-sudo -E -u omsuser /bin/bash
-source ~/.bashrc
+su root
 whoami
 cd /opt/ssfs/sources
 
