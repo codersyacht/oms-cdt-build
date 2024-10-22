@@ -33,6 +33,3 @@ git add *
 git commit -m "Comment V1"
 gitexp ${GIT_PASS} git push -u origin main --force
 
-echo "Export completed"
-sleep 50000
-
