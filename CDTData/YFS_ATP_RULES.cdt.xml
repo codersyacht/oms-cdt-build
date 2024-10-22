@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_ATP_RULESList TableName="YFS_ATP_RULES" TotalNumberOfRecords="1">
+<AtpRules AccumulationDays="730" AdvanceNotificationTime="0"
+    AtpRule="DEFAULT" AtpRuleKey="DEFAULT" AtpRuleName="DEFAULT"
+    BackwardConsumptionDays="730" ConsiderPoForAlloc="N"
+    Createprogid="XMLMigrator" Createts="2024-08-01T13:21:09-04:00"
+    Createuserid="SYSTEM" ForwardConsumptionDays="730" Lockid="0"
+    MaxInventoryHoldDays="730" Modifyprogid="SYSTEM"
+    Modifyts="2024-08-01T13:21:09-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT" PastDueDemandDays="730"
+    PastDueSupplyDays="730" ProcessingTime="0"/>
+</YFS_ATP_RULESList>
