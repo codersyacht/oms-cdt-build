@@ -11,5 +11,3 @@ git config --global --replace-all user.email ${GIT_USER}@gmail.com
 git remote set-url origin https://${GIT_USER}@github.com/codersyacht/oms-cdt-build.git
 git add *
 git commit -m "Comment V1"
-gitexp ${GIT_PASS} git push -u origin main --force
-
