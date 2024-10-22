@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_CLASSIFICATION_PURPOSEList TableName="YFS_CLASSIFICATION_PURPOSE" TotalNumberOfRecords="2">
+<ClassificationPurpose AttributeName=""
+    CategoryDomainKey="DefaultMasterCatalog"
+    ClassificationPurposeCode="SellingCatalog"
+    ClassificationPurposeDesc="Selling Catalog for DEFAULT"
+    ClassificationPurposeKey="2024080113210910420"
+    Createprogid="XMLMigrator" Createts="2024-08-01T13:21:09-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:21:09-04:00" Modifyuserid="SYSTEM"
+    ModuleName="" OrganizationCode="DEFAULT"/>
+<ClassificationPurpose AttributeName=""
+    CategoryDomainKey="DefaultMasterCatalog"
+    ClassificationPurposeCode="MasterCatalog"
+    ClassificationPurposeDesc="Master Catalog for DEFAULT"
+    ClassificationPurposeKey="2024080113210910421"
+    Createprogid="XMLMigrator" Createts="2024-08-01T13:21:09-04:00"
+    Createuserid="SYSTEM" Lockid="0" Modifyprogid="XMLMigrator"
+    Modifyts="2024-08-01T13:21:09-04:00" Modifyuserid="SYSTEM"
+    ModuleName="" OrganizationCode="DEFAULT"/>
+</YFS_CLASSIFICATION_PURPOSEList>
