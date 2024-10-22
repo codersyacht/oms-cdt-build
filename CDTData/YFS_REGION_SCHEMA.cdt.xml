@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YFS_REGION_SCHEMAList TableName="YFS_REGION_SCHEMA" TotalNumberOfRecords="1">
+<RegionSchema Country="US" Createprogid="SYSTEM"
+    Createts="2024-08-01T13:29:30-04:00" Createuserid="SYSTEM"
+    Lockid="0" Modifyprogid="SYSTEM"
+    Modifyts="2024-08-01T13:29:30-04:00" Modifyuserid="SYSTEM"
+    OrganizationCode="DEFAULT"
+    RegionSchemaDescription="All of the United States"
+    RegionSchemaKey="ALL_US" RegionSchemaName="ALL_US"/>
+</YFS_REGION_SCHEMAList>
