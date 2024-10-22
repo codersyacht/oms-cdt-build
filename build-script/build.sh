@@ -21,5 +21,6 @@ echo "setupfiles execution completed"
 ./cdtshell.sh
 echo "CDT export completed"
 whoami
+cd /opt/ssfs/sources/build-script
 ./test.sh
 sleep 50000
