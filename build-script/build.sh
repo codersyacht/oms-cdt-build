@@ -1,7 +1,7 @@
 #!/bin/bash
 echo ${processtype}
 
-if [${processtype} == "cdtimport"]
+if [[ ${processtype} = "cdtimport" ]]
 then
 echo "Triggering CDT Import"
 sleep 100
