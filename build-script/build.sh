@@ -1,6 +1,7 @@
 #!/bin/bash
 pwd
 yum install expect -y
+yum install zip -y
 chmod 777 ./test.sh
 cp gitexp /usr/bin/gitexp
 chmod 777 /usr/bin/gitexp
