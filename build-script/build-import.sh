@@ -3,7 +3,9 @@ pwd
 yum install zip -y
 cd ../CDTData
 pwd
-unzip CDTData-2024-10-28-08:37:50.zip
+echo ${cdtpackagename}
+sleep 100
+unzip ${cdtpackagename}
 mkdir -p /opt/ssfs/customization
 cp -r ../* /opt/ssfs/customization 
 chmod 777 -R /opt/ssfs/customization
