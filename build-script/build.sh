@@ -20,6 +20,11 @@ cd /opt/ssfs/runtime/bin
 echo "setupfiles execution completed"
 ./cdtshell.sh
 echo "CDT export completed"
+cd /opt/ssfs/customization/
+export cdtfilename="CDTData-"$(date '+%F-%T')
+echo ${cdtfilename}
+zip -r ${cdtfilename}.zip CDTData/*
+cp ${cdtfilename}.zip /root/sources/CDTData
 whoami
 cd /opt/ssfs/sources/build-script
 ./test.sh
