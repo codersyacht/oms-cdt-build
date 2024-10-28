@@ -7,7 +7,7 @@
             <Database Name="CDTXML" className="" dbType="xml" folder="/opt/ssfs/customization/CDTData" jdbcURL="" schema="" user="admin"/>
             </SourceDatabases>
         <TargetDatabases>
-            <Database Name="OMDB" dbType="db2" className="com.ibm.db2.jcc.DB2Driver" folder="" jdbcURL="jdbc:db2://localhost:50000/OMDB" schema="OMDB" user="db2inst1"/>
+            <Database Name="OMDB" className="com.ibm.db2.jcc.DB2Driver" dbType="db2" folder="" jdbcURL="jdbc:db2://9.46.237.217:50000/OMDB" schema="OMDB" user="db2inst1"/>
             </TargetDatabases>
             <SourceTargetPrefs>
               <SourceTargetPrefs>
