@@ -1,10 +1,10 @@
 #!/bin/bash
 pwd
 yum install zip -y
-cd CDTData
+cd ../CDTData
 pwd
 unzip CDTData-2024-10-28-08:37:50.zip
-sleep 1000
+sleep 100
 mkdir -p /opt/ssfs/customization
 cp -r ../* /opt/ssfs/customization 
 chmod 777 -R /opt/ssfs/customization
