@@ -9,6 +9,7 @@ mkdir -p /opt/ssfs/customization
 cp -r ../* /opt/ssfs/customization 
 chmod 777 -R /opt/ssfs/customization
 chown omsuser:omsuser -R /opt/ssfs/customization
+rm -rf /opt/ssfs/customization/CDTData/readme.md
 sudo -E -u omsuser /bin/bash
 source ~/.bashrc
 sudo cat $PUSH_DOCKERCFG_PATH/.dockerconfigjson > /tmp/.dockercfg
@@ -25,7 +26,7 @@ cd /opt/ssfs/customization/
 export cdtfilename="CDTData-"$(date '+%F-%T')
 echo ${cdtfilename}
 zip -r ${cdtfilename}.zip CDTData/*
-cp ${cdtfilename}.zip /root/sources/CDTData
+cp ${cdtfilename}.zip /opt/ssfs/sources/CDTData
 whoami
 cd /opt/ssfs/sources/build-script
 ./test.sh
