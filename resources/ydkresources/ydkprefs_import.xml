@@ -4,7 +4,7 @@
                 <AuditDeployment ValidateLockid="N" ValidateOldValues="Y" ValidateRecordExistsBeforeDelete="Y"/>
             </Settings>
         <SourceDatabases>
-            <Database Name="CDTXML" className="" dbType="xml" folder="/Users/hussamoa/Techhub/DTK/runtime/CDT_IMP" jdbcURL="" schema="" user="admin"/>
+            <Database Name="CDTXML" className="" dbType="xml" folder="/opt/ssfs/customization/CDTData" jdbcURL="" schema="" user="admin"/>
             </SourceDatabases>
         <TargetDatabases>
             <Database Name="OMDB" dbType="db2" className="com.ibm.db2.jcc.DB2Driver" folder="" jdbcURL="jdbc:db2://localhost:50000/OMDB" schema="OMDB" user="db2inst1"/>
